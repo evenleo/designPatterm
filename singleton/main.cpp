@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-  Singleton* p1 = Singleton::Instance();
-  p1 = Singleton::Instance();
+  singleton* p1 = singleton::Instance();
+  p1 = singleton::Instance();
 
   system("pause");
   return 0;
